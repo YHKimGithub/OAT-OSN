@@ -61,7 +61,7 @@ python main.py --mode=test --pptype=nms
 | OAT-NMS | 69.7 | 64.0 | 53.9 | 42.9 | 27.0 |
 
 
-## Citing FATSnet
+## Citing OAT-OSN
 Please cite our paper in your publications if it helps your research:
 
 ```BibTeX
