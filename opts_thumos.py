@@ -50,15 +50,15 @@ def parse_opt():
     parser.add_argument(
         '--video_anno',
         type=str,
-        default="/dataset/thumos/json/thumos14_v2.json")           
+        default="./data/thumos14_v2.json")           
     parser.add_argument(
         '--video_feature_all_train',
         type=str,
-        default="/dataset/thumos/oadtr_thumos/thumos_all_feature_val_V3.pickle")
+        default="./data/thumos_all_feature_val_V3.pickle")
     parser.add_argument(
         '--video_feature_all_test',
         type=str,
-        default="/dataset/thumos/oadtr_thumos/thumos_all_feature_test_V3.pickle")
+        default="./data/thumos_all_feature_test_V3.pickle")
         
     #network
     parser.add_argument(
