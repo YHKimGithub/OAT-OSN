@@ -37,8 +37,15 @@ The trained models that used Kinetics pre-trained feature can be downloaded from
 Files should be located in 'checkpoints/'. 
 
 ### Training Model by own
+To train the main OAT model, execute the command below.
 ```
 python main.py --mode=train
+```
+To train the post-processing network (OSN), execute the commands below.
+```
+python supnet.py --mode=make --inference_subset=train
+python supnet.py --mode=make --inference_subset=test
+python supnet.py --mode=train
 ```
 
 
