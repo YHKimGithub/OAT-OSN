@@ -9,7 +9,7 @@ Young Hwi Kim, Hyolim Kang, Seon Joo Kim
 ## Installation
 
 ### Prerequisites
-- Ubuntu 16.04  
+- Ubuntu 18.04  
 - Python 3.8.8   
 - CUDA 11.0  
 
