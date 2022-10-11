@@ -1,7 +1,7 @@
 # A Sliding Window Scheme for Online Temporal Action Localization (OAT-OSN)   
 **A Sliding Window Scheme for Online Temporal Action Localization** (ECCV2022)   
 Young Hwi Kim, Hyolim Kang, Seon Joo Kim   
-[[`link`]()]   
+[[`link`](https://drive.google.com/file/d/1xiaN-S3zOS-tpMPlZd0vOao8BkXRbK-n/view?usp=sharing)]   
 
 ## Updates
 **17 Jul, 2022**: Initial release
