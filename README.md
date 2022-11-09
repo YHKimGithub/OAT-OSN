@@ -28,12 +28,12 @@ pip install -r requirement.txt
 
 ### Input Features
 We provide the Kinetics pre-trained feature of THUMOS'14 dataset.
-The extracted features can be downloaded from [link will be added soon].   
+The extracted features can be downloaded from [link](https://yonsei-my.sharepoint.com/:u:/g/personal/younghwikim_o365_yonsei_ac_kr/ET18krhqroNBrKbFq3ranWgB96aURUwPqzb4kMmYFY-tOw?e=tpltyN).   
 Files should be located in 'data/'.  
 You can also get the feature files from [here](https://github.com/wangxiang1230/OadTR).
 
 ### Trained Model
-The trained models that used Kinetics pre-trained feature can be downloaded from [link will be added soon].    
+The trained models that used Kinetics pre-trained feature can be downloaded from [link](https://yonsei-my.sharepoint.com/:u:/g/personal/younghwikim_o365_yonsei_ac_kr/ETPd2jCvj59DkbLmYKmsviQBVtRoarWZfaWVn06UFwrLkQ?e=cRRzYD).    
 Files should be located in 'checkpoints/'. 
 
 ### Training Model by own
@@ -72,5 +72,12 @@ python main.py --mode=test --pptype=nms
 Please cite our paper in your publications if it helps your research:
 
 ```BibTeX
-TBD
+@inproceedings{kim2022sliding,
+  title={A Sliding Window Scheme for Online Temporal Action Localization},
+  author={Kim, Young Hwi and Kang, Hyolim and Kim, Seon Joo},
+  booktitle={European Conference on Computer Vision},
+  pages={653--669},
+  year={2022},
+  organization={Springer}
+}
 ```
